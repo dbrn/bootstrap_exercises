@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- js support -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>Sample Bootstrap Columns</title>
+    </head>
+    <body>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-3" style="background-color: orange; border: 1px solid black;">
+            <small>col-3</small>
+          </div>
+          <div class="col-auto" style="background-color: orange; border: 1px solid black;">
+            <small>col-auto</small>
+          </div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">
+            <small>col</small>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="w-100"></div> <!-- spezza le colonne -->
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row">
+          <div class="col-6" style="background-color: orange; border: 1px solid black;">col-6</div>
+          <div class="col-3" style="background-color: orange; border: 1px solid black;">col-3</div>
+          <div class="col-3" style="background-color: orange; border: 1px solid black;">col-3</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3" style="background-color: orange; border: 1px solid black;">col-12 col-md-6 col-lg-3</div>
+          <div class="col-12 col-md-6 col-lg-3" style="background-color: orange; border: 1px solid black;">col-12 col-md-6 col-lg-3</div>
+          <div class="col-6 col-lg-3" style="background-color: orange; border: 1px solid black;">col-6 col-lg-3</div>
+          <div class="col-6 col-lg-3" style="background-color: orange; border: 1px solid black;">col-6 col-lg-3</div>
+        </div>
+        <br>
+        <div class="row justify-content-start" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row justify-content-center" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row justify-content-end" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row justify-content-around" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row justify-content-between" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <div class="row justify-content-between no-gutters" style="background-color: red;">
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+          <div class="col-2" style="background-color: orange; border: 1px solid black;">col</div>
+        </div>
+        <br>
+        <div class="row" style="background-color: red;">
+          <div class="col-3 order-12" style="background-color: orange; border: 1px solid black;">col-3 order-12</div>
+          <div class="col-3 order-1" style="background-color: orange; border: 1px solid black;">col-3 order-1</div>
+          <div class="col-3" style="background-color: orange; border: 1px solid black;">col unordered</div>
+      </div>
+      <br>
+      <div class="row" style="background-color: red;">
+        <div class="col-md-5" style="background-color: orange; border: 1px solid black;">col-md-5</div>
+        <div class="col-md-5 offset-md-2" style="background-color: orange; border: 1px solid black;">col-md-5 offset-md-2</div>
+    </div>
+    <div class="row" style="background-color: red;">
+      <div class="col-md-5" style="background-color: orange; border: 1px solid black;">col-md-5</div>
+      <div class="col-md-5 ml-auto" style="background-color: orange; border: 1px solid black;">col-md-5 ml-auto</div>
+  </div>
+  <br>
+  <div class="row" style="background-color: red;">
+    <div class="col-md-5" style="background-color: orange; border: 1px solid black;">
+      col
+      <div class="col-6">Nested col-3</div>
+      <div class="col-6">Nested col-3</div>
+    </div>
+    <div class="col-md-5" style="background-color: orange; border: 1px solid black;">col-md-5 ml-auto</div>
+  </div>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- js support -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>Sample Bootstrap Layout</title>
+    </head>
+    <body>
+        <div class="container mx-3-sm justify-contents-center">
+            <h1 class="mt-2">Alerts</h1>
+            <div class="alert alert-primary">.alert alert-primary</div>
+            <div class="alert alert-warning">.alert alert-warning</div>
+            <div class="alert alert-dark">.alert alert-dark</div>
+            <hr>
+            <div class="alert alert-primary">.alert alert-primary <a class="alert-link" href="#">.alert-link</a></div>
+            <hr>
+            <div class="alert alert-success">
+              <h4>A bigger alert</h4>
+              <p>First paragraph with <a href="#" class="alert-link">link </a></p>
+              <p>Second vanilla paragraph!</p>
+            </div>
+            <hr>
+            <div class="alert alert-info alert-dismissible fade show">
+              <button class="close" data-dismiss="alert" aria-label="close">&times;</button>
+              This is a dismissible alert
+            </div><br>
+            <h1>Badges</h1>
+            <h3>h3 with badge <span class="badge badge-warning">.badge-warning</span></h3>
+            <hr>
+            <button class="btn btn-sm btn-dark">Notifications <span class="badge badge-danger">10</span></button>
+            <hr>
+            <span class="badge badge-pill badge-warning">Warning pill</span>
+            <span class="badge badge-pill badge-primary">Primary pill</span>
+            <span class="badge badge-pill badge-danger">Danger <span class="badge badge-light badge-pill">pill</span></span>
+            <br><br><h1>Breadcrumb</h1>
+            <nav class="breadcrumb">
+              <a href="#" class="breadcrumb-item">Home</a>
+              <a href="#" class="breadcrumb-item">Account</a>
+              <a href="#" class="breadcrumb-item">Delete</a>
+              <span class="breadcrumb-item active">Confirm</span>
+            </nav>
+            <hr>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Contacts</a></li>
+              <li class="breadcrumb-item active">Addresses</li>
+            </ol>
+            <h1>Buttons</h1>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">.btn-secondary</button>
+            <button class="btn btn-link">.btn-link</button>
+            <hr>
+            <a href="#" class="btn btn-dark">.btn-dark</a>
+            <a href="#" class="btn btn-danger">.btn-<span class="btn btn-light">danger</span></a>
+            <hr>
+            <button class="btn btn-outline-primary">Primary outline Button</button>
+            <button class="btn btn-outline-warning">.btn-outline-warning</button>
+            <hr>
+            <button class="btn btn-sm btn-primary">Primary small Button</button><br><br>
+            <button class="btn btn-dark">Dark Button</button><br><br>
+            <button class="btn btn-lg btn-primary">Primary large Button</button>
+            <hr>
+            <button class="btn btn-sm btn-block btn-primary">Primary small block Button</button><br>
+            <button class="btn btn-block btn-dark">Dark block Button</button><br>
+            <button class="btn btn-block btn-lg btn-primary">Primary large block Button</button>
+            <hr>
+            <button class="btn btn-primary active">Primary Button</button>
+            <button class="btn btn-secondary" disabled>.btn-secondary</button>
+            <button class="btn btn-link" disabled>.btn-link</button>
+            <hr>
+            <div class="btn-group">
+              <label class="btn btn-primary" data-toggle="buttons">
+                <input type="radio" id="option1" name="option">Opt 1</label>
+              <label class="btn btn-primary">
+                <input type="radio" id="option2" name="option">Opt 2</label>
+              <label class="btn btn-primary">
+                <input type="radio" id="option3" name="option" checked>Opt 3</label>
+            </div>
+            <hr>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-success">
+                <input type="checkbox">Option 1
+              </label>
+              <label class="btn btn-success">
+                <input type="checkbox">Option 2
+              </label>
+              <label class="btn btn-success">
+                <input type="checkbox" checked>Option 3
+              </label>
+            </div>
+            <br><br>
+            <h1>Buttongroup</h1>
+          </div>
+    </body>
+</html>
